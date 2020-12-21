@@ -496,6 +496,7 @@ footer {
   align-items: center;
 }
 footer .text {
+  font-family: "IBM Plex Mono";
   width: 80%;
   text-align: center;
 }
