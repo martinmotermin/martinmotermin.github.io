@@ -272,9 +272,9 @@ header .btn:hover {
 }
 .nosotros .phoneimg {
   width: 100%;
+  display: flex;
 }
 .nosotros .phoneimg img {
-  display: flex;
   position: relative;
   width: 340px;
   height: 519px;
