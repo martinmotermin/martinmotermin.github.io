@@ -1,0 +1,25 @@
+// RESET
+@import '../SCSS/base/reset';
+
+// VARIABLES
+@import './utils/fonts';
+
+//------- LAYOUT
+
+// Navbar
+@import './layout/navbar';
+// Header
+@import './layout/header';
+// Episodios
+@import './layout/episodios';
+// Nosotros
+@import './layout/nosotros';
+// Entrevistas 
+@import './layout/entrevistas';
+// Topicos
+@import './layout/topicos';
+// Final Section
+@import './layout/finalsection';
+// Footer
+@import './layout/footer';
+

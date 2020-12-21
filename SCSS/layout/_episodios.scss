@@ -1,0 +1,49 @@
+.episodios {
+    z-index: 1;
+    width: 100%;
+    margin-top: 24px;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    padding-top: 64px;
+    padding-bottom: 143px;
+    clip-path: polygon(0 3%, 100% 0%, 100% 97%, 0% 100%);
+    
+    .content{
+        width: 90%;
+        margin: auto;
+    }
+    .headline{
+        margin-top: 64px;
+        margin-bottom: 21px;
+        font-family: $fontsans;
+        font-size: 36px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        line-height: 42px;
+    }
+    .episodio{
+        margin-bottom: 11px;
+    }
+}
+
+@media screen and (min-width:1000px){
+    .episodios {
+        margin-top: 5px;
+        clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0% 100%);
+        .content{
+            width: 86%;
+            margin-top: 186px;
+            margin-bottom: 232px;
+            .headline{
+                margin-left: 7%;
+                margin-bottom: 26px;
+            }
+            .reproductores {
+                display: grid;  
+                grid-template-columns: 45% 45%;
+                grid-template-rows: 232px 232px;
+                column-gap: 10%;
+                row-gap: 72px;
+            }
+        }
+    }
+}

@@ -1,0 +1,91 @@
+header{ 
+    .tittle{
+        width: 90%;
+        margin: auto;
+        padding-top: 29px;
+        padding-bottom: 16px;
+        font-family: $fontsans;
+        font-size: clamp(36px, 5vw, 64px);
+        color: #060A24;
+        letter-spacing: 0;
+        line-height: 42px;
+        font-weight: 800;
+        span{
+            display: block;
+        }
+    }
+    .subtittle {
+        width: 90%;
+        margin: auto;
+        font-family: $fontmono;
+        font-size: clamp(14px, 5vw, 16px);
+        color: #060A24;
+        letter-spacing: 0;
+        line-height: 22px;
+        padding-bottom: 36px;
+    }
+    .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+        height: 48px;
+        background: #00F3BB;
+        font-family: $fontmono;
+        font-size: 16px;
+        text-transform:uppercase;
+        font-weight: 500;
+    }
+    .btn:hover{
+        background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+        color: #ffffff;
+        cursor: pointer;
+    }
+}
+@media screen and (min-width:580px) {
+    header {
+        .tittle {
+            text-align: center;
+            span{
+                display: inline-block;
+            }
+        }
+        .btn{
+            width: 250px;
+        }
+    }
+}
+@media screen and (min-width:1000px) {
+    header{
+        margin-top: 120px;
+        margin-left: 200px;
+        .tittle{
+            text-align: unset;
+            color: #060A24;
+            letter-spacing: 0;
+            padding: 10px 0;
+            margin: 0;
+            span{
+                display: inline-block;
+                object{
+                    color: #0000EC;
+                }
+            }
+        }
+        .subtittle {
+            width: 628px;
+            height: 48px;
+            padding:10px 0;
+            margin-left: 0;
+            margin-bottom: 56px;
+        }
+        .btn{
+            width: 226px;
+            height: 56px;
+            margin: 0;
+        }
+    }
+}
+
+

@@ -1,0 +1,56 @@
+.nosotros {
+    img{
+        position: relative;
+        width: 340px;
+        height: 519px;
+        margin-left: -20px;
+        margin-top: -100px;
+        z-index: 99999;
+    }
+    .phonetittle {
+        width: 90%;
+        margin: 27px auto 8px auto;
+        font-family: $fontsans;
+        font-size: clamp(36px, 5vw, 48px);
+        color: #060A24;
+        letter-spacing: 0;
+        line-height: 42px;
+    }
+    .phonesubtittle {
+        width: 90%;
+        margin: auto;
+        font-family: $fontmono;
+        font-size: clamp(14px, 5vw, 16px);
+        color: #060A24;
+        letter-spacing: 0;
+        line-height: 22px;
+    }
+}
+@media screen and (min-width:680px) {
+    .nosotros {
+        display: flex;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    .nosotros {
+        display: flex;
+        img {
+            width: 458px;
+            height: 660px;
+            margin-left: 200px;
+            margin-top: -180px;
+            margin-right: 62.4px;
+        }
+        .phonetext{
+            width: 464px;
+            height: 40vh;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .phonetittle {
+            margin: 0 auto 24px auto;
+        }
+    }
+}
