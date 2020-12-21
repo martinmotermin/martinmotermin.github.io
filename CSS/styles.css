@@ -270,12 +270,15 @@ header .btn:hover {
     row-gap: 72px;
   }
 }
-.nosotros img {
+.nosotros .phoneimg {
+  width: 100%;
+}
+.nosotros .phoneimg img {
+  display: flex;
   position: relative;
   width: 340px;
   height: 519px;
-  margin-left: -20px;
-  margin-top: -100px;
+  margin: -100px auto 0 auto;
   z-index: 99999;
 }
 .nosotros .phonetittle {
@@ -305,11 +308,16 @@ header .btn:hover {
 @media screen and (min-width: 1000px) {
   .nosotros {
     display: flex;
+    justify-content: space-evenly;
+    width: 90%;
   }
-  .nosotros img {
+  .nosotros .phoneimg {
     width: 458px;
     height: 660px;
-    margin-left: 200px;
+  }
+  .nosotros .phoneimg img {
+    width: 458px;
+    height: 660px;
     margin-top: -180px;
     margin-right: 62.4px;
   }

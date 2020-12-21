@@ -1,12 +1,16 @@
 .nosotros {
-    img{
-        position: relative;
-        width: 340px;
-        height: 519px;
-        margin-left: -20px;
-        margin-top: -100px;
-        z-index: 99999;
+    .phoneimg {
+        width: 100%;
+        img{
+            display: flex;
+            position: relative;
+            width: 340px;
+            height: 519px;
+            margin: -100px auto 0 auto;
+            z-index: 99999;
+        }
     }
+    
     .phonetittle {
         width: 90%;
         margin: 27px auto 8px auto;
@@ -35,13 +39,19 @@
 @media screen and (min-width:1000px) {
     .nosotros {
         display: flex;
-        img {
-            width: 458px;
+        justify-content: space-evenly;
+        width: 90%;
+        .phoneimg {
+            width:458px;
             height: 660px;
-            margin-left: 200px;
-            margin-top: -180px;
-            margin-right: 62.4px;
+            img {
+                width: 458px;
+                height: 660px;
+                margin-top: -180px;
+                margin-right: 62.4px;
+            }
         }
+        
         .phonetext{
             width: 464px;
             height: 40vh;
