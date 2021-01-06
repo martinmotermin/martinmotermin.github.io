@@ -148,9 +148,6 @@ header .tittle {
   line-height: 42px;
   font-weight: 800;
 }
-header .tittle span {
-  display: block;
-}
 header .subtittle {
   width: 90%;
   margin: auto;
@@ -184,9 +181,6 @@ header .btn:hover {
   header .tittle {
     text-align: center;
   }
-  header .tittle span {
-    display: inline-block;
-  }
   header .btn {
     width: 250px;
   }
@@ -197,6 +191,7 @@ header .btn:hover {
     margin-left: 200px;
   }
   header .tittle {
+    display: flex;
     text-align: unset;
     color: #060A24;
     letter-spacing: 0;
@@ -204,9 +199,6 @@ header .btn:hover {
     margin: 0;
   }
   header .tittle span {
-    display: inline-block;
-  }
-  header .tittle span object {
     color: #0000EC;
   }
   header .subtittle {
